@@ -3,6 +3,7 @@
 body {
     max-width: 2570px;
     margin: auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -93,6 +94,14 @@ ul {
     transform: translateX(0) !important;
 }
 
+.text-color {
+    color: #000;
+}
+
+.text-color-w {
+    color: #fff;
+}
+
 
 /********************   Animation formating start **********************/
 
@@ -112,14 +121,24 @@ ul {
 /********************  Header formating start **********************/
 
 .header-content {
+    padding: 1em 5em;
+}
+
+.header-content,
+.menu__list,
+.header-bottom {
     align-items: center;
 }
 
 .header-content__logo-box {
-    width: 30%;
+    width: 20%;
 }
 
 .header-content__nav-box {
+    width: 80%;
+}
+
+.header-content__logo-box__link__img {
     width: 70%;
 }
 
@@ -130,29 +149,19 @@ ul {
     justify-content: end;
 }
 
-.menu__item {
-    font-size: 1.1rem;
-    padding-left: 2.3em;
+.menu__item,
+.header-bottom__div__h1,
+.header-bottom__div-linkbox__link {
+    font-size: .95rem;
 }
 
-.menu__item,
-.page-link {
+.menu__item {
+    padding-left: 2.5em;
     font-weight: 600;
 }
 
-.header-content__logo-box__link,
-.menu__item,
-.page-link {
-    color: #150035;
-}
-
-.header-content__logo-box__link,
-.about-header__div__cBox__h2 {
-    font-weight: 900;
-}
-
-.header-content__logo-box__link {
-    font-size: 3rem;
+.menu__item--border-left {
+    border-left: 0.12rem solid #000;
 }
 
 .hamburger {
@@ -167,6 +176,31 @@ ul {
     height: 3px;
     background-color: #fff;
     margin: 3px 0;
+}
+
+.header-bottom {
+    justify-content: space-between;
+    background: #001647;
+    padding: 0.7em 5em;
+}
+
+.header-bottom__div__h1 {
+    font-weight: 700;
+}
+
+.header-bottom__div__span {
+    font-weight: 400;
+}
+
+.header-bottom__div-linkbox__link__img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+    top: 0.25em;
+}
+
+.header-bottom__div-linkbox__link__img--margin-left {
+    margin-left: 2.3em;
 }
 
 
