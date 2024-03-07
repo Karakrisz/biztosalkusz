@@ -141,8 +141,23 @@ ul {
 
 /********************  Identical instructions start **********************/
 
+.page__header {
+    width: max-content;
+    padding: 0.7em 2.5em 0.7em 5em;
+    margin: 1.5em 0 3em 0;
+}
+
+.page__header--right {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -2em;
+    padding: 0 5em 0 2.5em;
+}
+
 .header-bottom,
-.partners-content__header,
+.page__header,
 .services-content,
 .page-link {
     background: #001647;
@@ -150,6 +165,28 @@ ul {
 
 .services-content {
     padding: 3em 5em;
+}
+
+.page__header__h2,
+.page__header__h3,
+.service-box__title {
+    font-weight: 700;
+}
+
+.page-link {
+    padding: 0.5em 1.5em;
+    font-weight: 600;
+}
+
+.page-link__img {
+    width: 3%;
+    top: .1em;
+}
+
+.slider-content__img,
+.service-bottom__img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -249,30 +286,19 @@ ul {
 
 /********************  Slider formating start **********************/
 
-.slider-content__img {
-    width: 100%;
-    height: 100%;
-}
-
 
 /********************  Slider formating end **********************/
 
 
 /********************  Partners formating start **********************/
 
+.partners-content {
+    padding: 0 0 5em 0;
+}
+
 .partners-content__img-box__div__img {
     width: 90%;
     height: 50%;
-}
-
-.partners-content__header {
-    width: max-content;
-    padding: 0.7em 2.5em 0.7em 5em;
-    margin: 1.5em 0 3em 0;
-}
-
-.partners-content__header__h2 {
-    font-weight: 700;
 }
 
 .partners-content__img-box {
@@ -287,6 +313,17 @@ ul {
 
 .servive-grid {
     margin-bottom: 3em;
+}
+
+.service-box {
+    margin: 0.5em;
+}
+
+.service-bottom__box {
+    top: 45%;
+    right: 0;
+    background: #fff;
+    padding: 1em 2em;
 }
 
 
