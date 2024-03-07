@@ -18,7 +18,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(100deg, #1088ff, #130233, #1088ff);
+    background: linear-gradient(100deg, #001647, #001647, #001647);
     background-size: 180% 180%;
     width: 0;
     height: 25%;
@@ -29,6 +29,10 @@ body {
 :after,
 :before {
     box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
 }
 
 a {
@@ -55,6 +59,19 @@ ul {
 
 .d-flex {
     display: flex;
+}
+
+.grid-3,
+.grid-7 {
+    display: grid;
+}
+
+.grid-7 {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .float-right {
@@ -94,6 +111,10 @@ ul {
     transform: translateX(0) !important;
 }
 
+.bg-color-w {
+    background-color: #fff;
+}
+
 .text-color {
     color: #000;
 }
@@ -116,6 +137,26 @@ ul {
         background-position: 0% 50%;
     }
 }
+
+
+/********************  Identical instructions start **********************/
+
+.header-bottom,
+.partners-content__header,
+.services-content,
+.page-link {
+    background: #001647;
+}
+
+.services-content {
+    padding: 3em 5em;
+}
+
+
+/********************  Identical instructions end **********************/
+
+
+/********************  Header formating start **********************/
 
 
 /********************  Header formating start **********************/
@@ -180,7 +221,6 @@ ul {
 
 .header-bottom {
     justify-content: space-between;
-    background: #001647;
     padding: 0.7em 5em;
 }
 
@@ -205,6 +245,52 @@ ul {
 
 
 /********************  Header formating end **********************/
+
+
+/********************  Slider formating start **********************/
+
+.slider-content__img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/********************  Slider formating end **********************/
+
+
+/********************  Partners formating start **********************/
+
+.partners-content__img-box__div__img {
+    width: 90%;
+    height: 50%;
+}
+
+.partners-content__header {
+    width: max-content;
+    padding: 0.7em 2.5em 0.7em 5em;
+    margin: 1.5em 0 3em 0;
+}
+
+.partners-content__header__h2 {
+    font-weight: 700;
+}
+
+.partners-content__img-box {
+    padding: 0 2em 0 4em;
+}
+
+
+/********************  Partners formating end **********************/
+
+
+/********************  Services formating start **********************/
+
+.servive-grid {
+    margin-bottom: 3em;
+}
+
+
+/********************  Services formating end **********************/
 
 
 /********************  Media formating start **********************/
