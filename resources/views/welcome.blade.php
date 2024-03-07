@@ -205,8 +205,8 @@
 
     <div class="service-bottom position-relative">
         <img class="service-bottom__img" src="/img/partners/bottom.svg" alt="Biztos Alkuszom">
-        <div class="service-bottom__box position-absolute">
-            <h4 class="service-bottom__box__title">"Nálunk a biztosítás találkozik a bizalommal."</h4>
+        <div class="service-bottom__box position-absolute bg-color-w">
+            <h4 class="service-bottom__box__title linear-font">"Nálunk a biztosítás <br> találkozik a bizalommal."</h4>
         </div>
     </div>
 

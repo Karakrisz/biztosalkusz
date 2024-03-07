@@ -123,6 +123,16 @@ ul {
     color: #fff;
 }
 
+.linear-font {
+    background: linear-gradient(100deg, #001647, #155B9B, #001647);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
 
 /********************   Animation formating start **********************/
 
@@ -320,10 +330,15 @@ ul {
 }
 
 .service-bottom__box {
-    top: 45%;
+    top: 40%;
     right: 0;
-    background: #fff;
-    padding: 1em 2em;
+    padding: 0 2em;
+    width: max-content;
+}
+
+.service-bottom__box__title {
+    font-size: 2.5rem;
+    margin: 0.7em 0;
 }
 
 
