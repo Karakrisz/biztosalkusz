@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
-// use TCG\Voyager\Models\Category;
 
+// use TCG\Voyager\Models\Category;
 
 class PostController extends Controller
 {
@@ -22,6 +21,5 @@ class PostController extends Controller
     {
         return view('posts.show', compact('post'));
     }
-    
 
 }

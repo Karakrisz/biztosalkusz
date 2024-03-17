@@ -130,7 +130,7 @@ ul {
     color: transparent;
     -webkit-text-fill-color: transparent;
     background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
+    animation: gradient-animation 3s ease infinite;
 }
 
 
